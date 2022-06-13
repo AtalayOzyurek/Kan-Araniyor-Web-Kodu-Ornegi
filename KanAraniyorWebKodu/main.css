@@ -1,0 +1,154 @@
+
+body{
+    background-image: url(images/bodyy.jpg)  !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.logo{
+    margin-top: 2rem !important;
+}
+
+.ilk{
+    height: auto !important;
+}
+.metinn{
+    text-decoration: underline;
+}
+.yazi1{
+    padding: 7px 0px 13px 0px;
+}
+
+.iki{
+    height: auto !important;
+}
+.sagpara{
+    float: left;
+    margin: 0px 25px 10px 5px;
+}
+
+.afiss{
+    height: 500px !important;
+    width: auto !important;
+}
+
+.ikon{
+    display: inline;
+}
+.kann{
+    color: rgb(0, 0, 0);
+  
+}
+.yuvarlak{
+    
+    position:absolute;
+    top: 180px;
+}
+.buyuklogoarkaplan
+{
+    background-image: url(images/buyuklogo.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.divv
+{
+    height: auto !important;
+}
+                /*DETAY SAYFASI*/
+.aramamotoru
+{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.aramamotoru input
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
+	/* BAĞIŞÇI GİRİŞ SAYFASI */
+   
+    .user_card {
+        height: 400px;
+        width: 350px;
+        margin-top: 170px;
+        margin-bottom: auto;
+        background: #f35212;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 0px solid white;
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        width: 100%;
+        background: #cf1804 !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_btn:hover {
+        box-shadow: none !important;
+        background: #ff1c03 !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #c0392b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #c0392b !important;
+    }
+    .faycon
+    {
+        height: 27px;
+        width: 27px;
+
+    }
+
+
+ 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kan Bağışçısı Giriş</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/kan22.jpeg">
+	
+</head>
+<body>
+    						<!--BURASI GİRİŞ ALANI-->
+	<div class="container h-100 ">
+	<!--	<div id="girisBolum" class="d-flex justify-content-center h-100 ">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container ">
+						<img src="images/kan1.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+						<div class="input-group mb-3 mt-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa fa-user p-2"></i></span>
+							</div>
+							<input id="girisAdSoyad" type="text" name="" class="form-control input_user" value="" placeholder="Ad Soyad">
+						</div>
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa fa-key p-1"></i></span>
+							</div>
+							<input id="girisTelefon" type="text" name="" class="form-control input_pass" value="" placeholder="Telefon">
+						</div>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline">Beni Hatırla</label>
+							</div>
+						</div>
+							<div class="d-flex justify-content-center mt-3 login_container">
+				 	<button onclick="kanBagisciGiris()" type="button" name="button" class="btn login_btn">Giriş yap</button>
+				   </div>
+					</form>
+				</div>
+		
+				<div class="mt-4">
+					<div class="text-center">
+			            Hesabınız yoksa <a href="#" onclick="kayitSayfaAc()" class="">  Kayıt Olun</a> <br>
+						<a href="index.html">  <div class="btn btn-secondary m-3">Anasayfaya Dön</div></a>
+					</div>
+				
+
+					<input type="text" id="girisAdSoyadSorgu" value="">
+					<input type="text" id="girisTelefonSorgu" value="">
+
+				</div>
+			</div>
+		</div>-->
+								<!--BURASI KAYIT ALANI-->
+		<div id="kayitBolum" class="d-flex justify-content-center h-100 ">
+			<div class="user_card h-auto">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container ">
+						<img src="images/kan1.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+						<div class="input-group mb-2 mt-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa faycon fa-user p-1"></i></span>
+							</div>
+							<input id="inputKullaniciAdi" type="text" name="" class="form-control input_user" value="" placeholder="Ad Soyad">
+						</div>
+						<div class="input-group mb-2 mt-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa faycon fa-heart p-1"></i></span>
+							</div>
+							<input id="inputKanGrubu" type="text" name="" class="form-control input_user" value="" placeholder="Kan Grubu">
+						</div>
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa faycon fa-phone p-1"></i></span>
+							</div>
+							<input id="inputTelefon" type="text" name="" class="form-control input_pass" value="" placeholder="Telefon">
+						</div>
+						<div class="input-group mb-2 mt-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa faycon fa-building p-1"></i></span>
+							</div>
+							<input id="inputSehir" type="text" name="" class="form-control input_user" value="" placeholder="Şehir">
+						</div>
+						<div class="input-group mb-2 mt-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fa faycon fa-home p-1"></i></span>
+							</div>
+							<input id="inputIlce" type="text" name="" class="form-control input_user" value="" placeholder="İlçe">
+						</div>
+						<div class="form-group">
+							
+						</div>
+							<div class="d-flex justify-content-center mt-3 login_container">
+				 	<button onclick="kanBagisciEkle()" type="button" name="button" class="btn login_btn">Kayıt Ol</button>
+				   </div>
+					</form>
+				</div>
+		
+				<div class="mt-4">
+					<div class="text-center">
+						<a href="index.html">  <div class="btn btn-secondary m-3">Anasayfaya Dön</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.0.0/firebase.js">
+	</script> 
+	<script src="app.js"></script>
+	<script src="FirebaseHelper.js"></script>
+</body>
+</html>
